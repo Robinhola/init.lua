@@ -6,7 +6,10 @@ vim.cmd.packadd('packer.nvim')
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+
+  -- Robin's favourite
   use 'tpope/vim-commentary'
+  use 'rhysd/vim-clang-format'
 
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.0',
